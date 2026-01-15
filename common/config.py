@@ -24,14 +24,14 @@ class Config:
         self.JIMENG_SK = os.getenv("JIMENG_SK")
 
         # # 读取图谱模式层的数据
-        # self.TCM_METADATA = open(get_file_path("__004__langgraph_more_nodes/tcm_metadata.json"), "r").read()
+        self.TCM_METADATA = open(get_file_path("___003___insert_json_neo4j/tcm_metadata.json"), "r").read()
 
         # embedding模型
         self.EMBEDDING_MODEL_PATH = os.getenv("EMBEDDING_MODEL_PATH")
         #
         # # index的路径
-        # self.ENTITY_INDEX_PATH = get_file_path("__004__langgraph_more_nodes/nero4j_embedding_faiss.index")
-        # self.ENTITY_ID2TEXT_PATH = get_file_path("__004__langgraph_more_nodes/nero4j_embedding_faiss_id2text.pkl")
+        self.ENTITY_INDEX_PATH = get_file_path("___003___insert_json_neo4j/nero4j_embedding_faiss.index")
+        self.ENTITY_ID2TEXT_PATH = get_file_path("___003___insert_json_neo4j/nero4j_embedding_faiss_id2text.pkl")
 
 
 if __name__ == '__main__':

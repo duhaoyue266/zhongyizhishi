@@ -1,0 +1,6860 @@
+{
+  "output_list": [
+    {
+      "filename": "蜂蜜.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "蜂蜜",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "内服：冲调，15~30g；或入丸剂、膏剂。外用：适量，涂敷。",
+              "effect": "补中，润燥，止痛，解毒",
+              "indication": "肺燥咳嗽，肠燥便秘，胃脘疼痛，鼻渊，口疮，汤火烫伤，解乌头毒",
+              "meridian": "肺经、脾经、大肠经",
+              "property_flavor": "甘，平",
+              "taboo": "痰湿内蕴、中满痞胀及大便不实者禁服"
+            }
+          },
+          {
+            "name": "《本经》",
+            "type": "Source"
+          },
+          {
+            "name": "《别录》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草拾遗》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草衍义》",
+            "type": "Source"
+          },
+          {
+            "name": "《纲目》",
+            "type": "Source"
+          },
+          {
+            "name": "《千金方》",
+            "type": "Source"
+          },
+          {
+            "name": "《伤寒论》",
+            "type": "Source"
+          },
+          {
+            "name": "《现代实用中药》",
+            "type": "Source"
+          },
+          {
+            "name": "《金匮要略》",
+            "type": "Source"
+          },
+          {
+            "name": "《济急仙方》",
+            "type": "Source"
+          },
+          {
+            "name": "《药性论》",
+            "type": "Source"
+          },
+          {
+            "name": "《肘后方》",
+            "type": "Source"
+          },
+          {
+            "name": "《普济方》",
+            "type": "Source"
+          },
+          {
+            "name": "《梅师集验方》",
+            "type": "Source"
+          },
+          {
+            "name": "《补缺肘后方》",
+            "type": "Source"
+          },
+          {
+            "name": "《上海常用中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "肺燥咳嗽",
+            "type": "Symptom"
+          },
+          {
+            "name": "肠燥便秘",
+            "type": "Symptom"
+          },
+          {
+            "name": "胃脘疼痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "鼻渊",
+            "type": "Symptom"
+          },
+          {
+            "name": "口疮",
+            "type": "Symptom"
+          },
+          {
+            "name": "汤火烫伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "解乌头毒",
+            "type": "Effect"
+          },
+          {
+            "name": "补中",
+            "type": "Effect"
+          },
+          {
+            "name": "润燥",
+            "type": "Effect"
+          },
+          {
+            "name": "止痛",
+            "type": "Effect"
+          },
+          {
+            "name": "解毒",
+            "type": "Effect"
+          },
+          {
+            "name": "高血压",
+            "type": "Disease"
+          },
+          {
+            "name": "慢性便秘",
+            "type": "Disease"
+          },
+          {
+            "name": "胃及十二指肠溃疡",
+            "type": "Disease"
+          },
+          {
+            "name": "蛔虫病",
+            "type": "Disease"
+          },
+          {
+            "name": "男子阴疮",
+            "type": "Disease"
+          },
+          {
+            "name": "痘疮痒甚",
+            "type": "Symptom"
+          },
+          {
+            "name": "风疹",
+            "type": "Disease"
+          },
+          {
+            "name": "风癣",
+            "type": "Disease"
+          },
+          {
+            "name": "热油侥痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "黯",
+            "type": "Symptom"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "补中",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "润燥",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解乌头毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "肺燥咳嗽",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "肠燥便秘",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "胃脘疼痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "鼻渊",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "口疮",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "汤火烫伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "高血压",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "慢性便秘",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "胃及十二指肠溃疡",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "蛔虫病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "男子阴疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风疹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风癣",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痘疮痒甚",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "热油侥痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "黯",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本经》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《别录》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草拾遗》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草衍义》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《千金方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《伤寒论》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《现代实用中药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《金匮要略》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《济急仙方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《药性论》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《肘后方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《普济方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《梅师集验方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《补缺肘后方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蜂蜜",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《上海常用中草药》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "米汤.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "米汤",
+            "type": "Herb",
+            "attributes": {
+              "alias": "粥油，浓米汤；米油；粥油；浓米汤；米饮",
+              "effect": "补肾健脾，利水通淋",
+              "indication": "脾虚赢瘦，肾亏不育，小便淋浊",
+              "property_flavor": "甘；平",
+              "dosage": "内服：30-50ml"
+            }
+          },
+          {
+            "name": "《紫林单方》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "补肾健脾",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利水通淋",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脾虚赢瘦",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肾亏不育",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小便淋浊",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "米汤",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《紫林单方》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "蟾蜍.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "蟾蜍",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "外用：适量；内服：煎汤，1只；或入丸、散，1-3g",
+              "effect": "破癥结，行水湿，化毒，杀虫，定痛",
+              "indication": "疔疮，发背，阴疽瘰疬，恶疮，癥瘕癖积，臌胀，水肿，小儿疳积，慢性气管炎",
+              "meridian": "心、肝、脾、肺",
+              "property_flavor": "辛，凉，有毒",
+              "taboo": "表热、虚脱的人忌用",
+              "traits": "为蟾蜍科动物中华大蟾蜍或黑眶蟾蜍等的全体。夏、秋捕捉",
+              "origin": "中华大蟾蜍或黑眶蟾蜍",
+              "alias": "苦蠪, 蟾, 虾蟆, 蚵蚾, 癞虾蟆, 石蚌, 癞格宝, 癞巴子, 癞蛤蚆, 蚧蛤蟆, 蚧巴子"
+            }
+          },
+          {
+            "name": "疔疮",
+            "type": "Disease"
+          },
+          {
+            "name": "发背",
+            "type": "Disease"
+          },
+          {
+            "name": "阴疽瘰疬",
+            "type": "Disease"
+          },
+          {
+            "name": "恶疮",
+            "type": "Disease"
+          },
+          {
+            "name": "癥瘕癖积",
+            "type": "Disease"
+          },
+          {
+            "name": "臌胀",
+            "type": "Disease"
+          },
+          {
+            "name": "水肿",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿疳积",
+            "type": "Disease"
+          },
+          {
+            "name": "慢性气管炎",
+            "type": "Disease"
+          },
+          {
+            "name": "蟾蜍膏",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治一切疮肿、痈疽、瘰疬等疾，经月不瘥，将作冷瘘",
+              "usage": "外用：清油调药末，摊贴患处；候清水出，更换新药"
+            }
+          },
+          {
+            "name": "蟾砂散",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治气臌",
+              "usage": "将蟆研末，作三服，陈皮汤送下"
+            }
+          }
+        ],
+        "relations": [
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "破癥结",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "行水湿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "化毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "杀虫",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "定痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疔疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "发背",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "阴疽瘰疬",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "恶疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "癥瘕癖积",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "臌胀",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "水肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿疳积",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "慢性气管炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍膏",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "蟾蜍",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "蟾砂散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "蟾蜍",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "蟾砂散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "砂仁",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "蟾蜍膏",
+            "subject_type": "Formula",
+            "relation": "TREATS_DISEASE",
+            "object": "疮肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍膏",
+            "subject_type": "Formula",
+            "relation": "TREATS_DISEASE",
+            "object": "痈疽",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾蜍膏",
+            "subject_type": "Formula",
+            "relation": "TREATS_DISEASE",
+            "object": "瘰疬",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蟾砂散",
+            "subject_type": "Formula",
+            "relation": "TREATS_DISEASE",
+            "object": "气臌",
+            "object_type": "Disease"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "石地钱.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "石地钱",
+            "type": "Herb",
+            "attributes": {
+              "effect": "清热解毒，消肿止血",
+              "indication": "疮疖肿毒，烧烫伤，跌打肿痛，外伤出血",
+              "property_flavor": "淡；涩；凉",
+              "dosage": "内服：煎汤，12-15g。外用：适量，研粉敷；或捣敷",
+              "origin": "为瘤冠苔科（石地钱科）植物石地钱的叶状体",
+              "place": "生于石壁和土坡上。分布于东北、华北、西北、华东、中南及西南等地区"
+            }
+          },
+          {
+            "name": "疮疖肿毒",
+            "type": "Disease"
+          },
+          {
+            "name": "烧烫伤",
+            "type": "Disease"
+          },
+          {
+            "name": "跌打肿痛",
+            "type": "Disease"
+          },
+          {
+            "name": "外伤出血",
+            "type": "Disease"
+          },
+          {
+            "name": "《湖南药物志》",
+            "type": "Source"
+          },
+          {
+            "name": "《中国药用孢子植物》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消肿止血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疮疖肿毒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烧烫伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "跌打肿痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "外伤出血",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《湖南药物志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "石地钱",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《中国药用孢子植物》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "红木香.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "红木香",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为木兰科植物长梗南五味子的根或根皮",
+              "property_flavor": "辛；苦；性温",
+              "meridian": "脾；胃；肝经",
+              "effect": "行气，活血，止痛；理气止痛，祛风通络，活血消肿",
+              "indication": "胃痛，腹痛，风湿痹痛，痛经，月经不调，产后腹痛，咽喉肿痛，痔疮，无名肿毒，跌打损伤",
+              "dosage": "内服：煎汤，9～15g；或研末，1～1.5g。外用：适量，煎汤洗；或研粉调敷",
+              "taboo": "孕妇慎用",
+              "processing": "洗净、捞出，润透切片，晒干"
+            }
+          },
+          {
+            "name": "长梗南五味子",
+            "type": "Herb"
+          },
+          {
+            "name": "胃痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "腹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "风湿痹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "痛经",
+            "type": "Symptom"
+          },
+          {
+            "name": "月经不调",
+            "type": "Symptom"
+          },
+          {
+            "name": "产后腹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "咽喉肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "痔疮",
+            "type": "Symptom"
+          },
+          {
+            "name": "无名肿毒",
+            "type": "Symptom"
+          },
+          {
+            "name": "跌打损伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "《福建民间草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《江西民间草药验方》",
+            "type": "Source"
+          },
+          {
+            "name": "《纲目拾遗》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "行气",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "活血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "理气止痛，祛风通络，活血消肿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "胃痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "腹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "风湿痹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痛经",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "月经不调",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "产后腹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痔疮",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "无名肿毒",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "跌打损伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《福建民间草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《江西民间草药验方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "红木香",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目拾遗》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "木竹子.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "木竹子",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为藤黄科植物岭南山竹子的果实、果核、树皮",
+              "property_flavor": "味甘，平",
+              "meridian": "脾经",
+              "indication": "清热，利百脉，通调水脏，止渴生津，解暑，消酒；治吐逆不食，关格闭拒不通，脾虚下陷，肛门坠脱不敛；凉大肠，去积血，利耳目，治咳逆上气；消炎止痛，收敛生肌",
+              "usage": "内服：生食，适量；外用：适量，捣敷",
+              "dosage": "内服：每次30毫升50％溶液，每天2次（小儿消化不良）；外用：适量"
+            }
+          },
+          {
+            "name": "山竹子果核",
+            "type": "Herb"
+          },
+          {
+            "name": "山竹子树皮",
+            "type": "Herb"
+          },
+          {
+            "name": "烧伤",
+            "type": "Disease"
+          },
+          {
+            "name": "烫伤",
+            "type": "Disease"
+          },
+          {
+            "name": "湿疹",
+            "type": "Disease"
+          },
+          {
+            "name": "口腔炎",
+            "type": "Disease"
+          },
+          {
+            "name": "牙周炎",
+            "type": "Disease"
+          },
+          {
+            "name": "痈疮溃烂",
+            "type": "Disease"
+          },
+          {
+            "name": "铁砂入肉不出",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿消化不良",
+            "type": "Disease"
+          },
+          {
+            "name": "拔子弹",
+            "type": "Symptom"
+          },
+          {
+            "name": "《广西中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《桂海虞衡志》",
+            "type": "Source"
+          },
+          {
+            "name": "姚可成《食物本草》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热，利百脉，通调水脏，止渴生津，解暑，消酒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消炎止痛，收敛生肌",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "吐逆不食",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "关格闭拒不通",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脾虚下陷",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肛门坠脱不敛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "咳逆上气",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿消化不良",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烧伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烫伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿疹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "口腔炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "牙周炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痈疮溃烂",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烧伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烫伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿疹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "口腔炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "牙周炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痈疮溃烂",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子鲜果",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "铁砂入肉不出",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿消化不良",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "拔子弹",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "山竹子果核",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《广西中草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "山竹子树皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《广西中草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《桂海虞衡志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "木竹子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "姚可成《食物本草》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "荸荠.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "荸荠",
+            "type": "Herb",
+            "attributes": {
+              "alias": "凫茈、葃菇、水芋、乌芋、乌茨、葧脐、黑山棱、地栗、铁葧脐、马蹄、红慈菇、马薯、地梨、苾荠",
+              "effect": "清热生津，化痰，消积",
+              "indication": "温病口渴，咽喉肿痛，痰热咳嗽，目赤，消渴，痢疾，黄疸，热淋，食积，赘疣",
+              "meridian": "肺；胃经",
+              "property_flavor": "味甘；性寒",
+              "taboo": "虚寒及血虚者慎服",
+              "usage": "内服：煎汤，60-120g；或嚼食；或捣汁；或浸酒，或澄粉。外用：适量，煅存性研末撒；或澄粉点目，或生用涂擦。",
+              "origin": "为莎草科植物荸荠的球茎。冬季采挖，洗净泥土，鲜用或风干。",
+              "place": "栽植于水田中。我国大部分地区有栽培。"
+            }
+          },
+          {
+            "name": "五汁饮",
+            "type": "Formula",
+            "attributes": {
+              "indication": "太阴温病，口渴甚，吐白沫粘滞不快者"
+            }
+          },
+          {
+            "name": "雪羹",
+            "type": "Formula",
+            "attributes": {
+              "indication": "肝经热厥，少腹攻冲作痛"
+            }
+          },
+          {
+            "name": "唐瑶经验方",
+            "type": "Source"
+          },
+          {
+            "name": "本经逢原",
+            "type": "Source"
+          },
+          {
+            "name": "本草经疏",
+            "type": "Source"
+          },
+          {
+            "name": "神秘方",
+            "type": "Source"
+          },
+          {
+            "name": "纲目",
+            "type": "Source"
+          },
+          {
+            "name": "泉州本草",
+            "type": "Source"
+          },
+          {
+            "name": "中华皮肤科杂志",
+            "type": "Source"
+          },
+          {
+            "name": "简便单方",
+            "type": "Source"
+          },
+          {
+            "name": "古方选注",
+            "type": "Source"
+          },
+          {
+            "name": "温病条辨",
+            "type": "Source"
+          },
+          {
+            "name": "温病口渴",
+            "type": "Symptom"
+          },
+          {
+            "name": "咽喉肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "痰热咳嗽",
+            "type": "Symptom"
+          },
+          {
+            "name": "目赤",
+            "type": "Symptom"
+          },
+          {
+            "name": "消渴",
+            "type": "Symptom"
+          },
+          {
+            "name": "痢疾",
+            "type": "Disease"
+          },
+          {
+            "name": "黄疸",
+            "type": "Disease"
+          },
+          {
+            "name": "热淋",
+            "type": "Symptom"
+          },
+          {
+            "name": "食积",
+            "type": "Symptom"
+          },
+          {
+            "name": "赘疣",
+            "type": "Symptom"
+          },
+          {
+            "name": "肝经热厥",
+            "type": "Disease"
+          },
+          {
+            "name": "小便不利",
+            "type": "Symptom"
+          },
+          {
+            "name": "下痢赤白",
+            "type": "Symptom"
+          },
+          {
+            "name": "痞积",
+            "type": "Symptom"
+          },
+          {
+            "name": "腹满胀大",
+            "type": "Symptom"
+          },
+          {
+            "name": "大便下血",
+            "type": "Symptom"
+          },
+          {
+            "name": "妇人血崩",
+            "type": "Symptom"
+          },
+          {
+            "name": "小儿口疮",
+            "type": "Symptom"
+          },
+          {
+            "name": "寻常疣",
+            "type": "Symptom"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热生津",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "化痰",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消积",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "温病口渴",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痰热咳嗽",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "目赤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "消渴",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痢疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄疸",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "热淋",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "食积",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "赘疣",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五汁饮",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "荸荠",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "五汁饮",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "温病条辨",
+            "object_type": "Source"
+          },
+          {
+            "subject": "雪羹",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "荸荠",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "雪羹",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "古方选注",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肝经热厥",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小便不利",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "下痢赤白",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "唐瑶经验方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痞积",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "本经逢原",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "腹满胀大",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "本草经疏",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "大便下血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "神秘方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "妇人血崩",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "纲目",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "泉州本草",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小儿口疮",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "简便单方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "寻常疣",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荸荠",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "中华皮肤科杂志",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "五倍子.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "五倍子",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "酸，平",
+              "meridian": "肺经、胃经、大肠经",
+              "effect": "敛肺降火，涩肠止泻，止血，解毒",
+              "indication": "肺虚久咳，久痢，久泻，脱肛，目汗，盗汗，遗精，便血，衄血，崩漏，外伤出血，肿毒，疮疖，睫毛倒卷",
+              "taboo": "外感风寒或肺有实热之咳嗽及积滞未清之泻痢忌服",
+              "dosage": "内服：煎汤，3~10g；研末，1.5~6g；或入丸、散。外用：适量，煎汤熏洗；研末撒或调敷",
+              "origin": "为倍蚜科昆虫角倍蚜或倍蛋蚜在其寄主盐肤木、青麸杨或红麸杨等树上形成的虫瘿",
+              "place": "四川、贵州、云南、陕西、湖北、广西等地",
+              "processing": "拣净、敲开、剔去其中杂质",
+              "traits": "角倍呈不规则囊状或菱角状，表面黄棕色至灰棕色，质坚脆，中空；肚倍呈纺锤形囊状，壁厚2～3毫米，折断面角质样"
+            }
+          },
+          {
+            "name": "《本草拾遗》",
+            "type": "Source"
+          },
+          {
+            "name": "《日华子本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《开宝本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草图经》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草衍义》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草衍义补遗》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草荤筌》",
+            "type": "Source"
+          },
+          {
+            "name": "《纲目》",
+            "type": "Source"
+          },
+          {
+            "name": "《中药形性经验鉴别法》",
+            "type": "Source"
+          },
+          {
+            "name": "肺虚久咳",
+            "type": "Disease"
+          },
+          {
+            "name": "久痢",
+            "type": "Disease"
+          },
+          {
+            "name": "久泻",
+            "type": "Disease"
+          },
+          {
+            "name": "脱肛",
+            "type": "Disease"
+          },
+          {
+            "name": "盗汗",
+            "type": "Symptom"
+          },
+          {
+            "name": "遗精",
+            "type": "Symptom"
+          },
+          {
+            "name": "便血",
+            "type": "Symptom"
+          },
+          {
+            "name": "衄血",
+            "type": "Symptom"
+          },
+          {
+            "name": "崩漏",
+            "type": "Symptom"
+          },
+          {
+            "name": "外伤出血",
+            "type": "Symptom"
+          },
+          {
+            "name": "肿毒",
+            "type": "Disease"
+          },
+          {
+            "name": "疮疖",
+            "type": "Disease"
+          },
+          {
+            "name": "睫毛倒卷",
+            "type": "Symptom"
+          },
+          {
+            "name": "齿宣疳蠿",
+            "type": "Disease"
+          },
+          {
+            "name": "风湿疮",
+            "type": "Disease"
+          },
+          {
+            "name": "五痔",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿面鼻疳疮",
+            "type": "Disease"
+          },
+          {
+            "name": "口疮",
+            "type": "Disease"
+          },
+          {
+            "name": "顽痰",
+            "type": "Symptom"
+          },
+          {
+            "name": "热病",
+            "type": "Disease"
+          },
+          {
+            "name": "眼赤湿烂",
+            "type": "Disease"
+          },
+          {
+            "name": "喉痹",
+            "type": "Disease"
+          },
+          {
+            "name": "溃疮",
+            "type": "Disease"
+          },
+          {
+            "name": "金疮",
+            "type": "Disease"
+          },
+          {
+            "name": "子肠坠下",
+            "type": "Disease"
+          },
+          {
+            "name": "火伤",
+            "type": "Disease"
+          },
+          {
+            "name": "烫伤",
+            "type": "Disease"
+          },
+          {
+            "name": "消渴",
+            "type": "Disease"
+          },
+          {
+            "name": "呕吐",
+            "type": "Symptom"
+          },
+          {
+            "name": "失血",
+            "type": "Symptom"
+          },
+          {
+            "name": "黄病",
+            "type": "Disease"
+          },
+          {
+            "name": "心腹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "小儿夜啼",
+            "type": "Symptom"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "敛肺降火，涩肠止泻，止血，解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肺虚久咳",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "久痢",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "久泻",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脱肛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "盗汗",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "遗精",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "便血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "衄血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "崩漏",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "外伤出血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肿毒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疮疖",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "睫毛倒卷",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "齿宣疳蠿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风湿疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "五痔",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿面鼻疳疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "口疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "顽痰",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "热病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "眼赤湿烂",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "喉痹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "溃疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "金疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "子肠坠下",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "火伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烫伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "消渴",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "呕吐",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "失血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "心腹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小儿夜啼",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草拾遗》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《日华子本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《开宝本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草图经》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草衍义》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草衍义补遗》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草荤筌》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "五倍子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《中药形性经验鉴别法》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "鱼脑石.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "鱼脑石",
+            "type": "Herb",
+            "attributes": {
+              "alias": "石首鱼头石、石首鱼脑中枕、石首鱼魫、石首骨、黄鱼脑石、鱼首石、鱼脑中枕、黄鱼首石",
+              "effect": "化石，通淋，消炎",
+              "indication": "治石淋，小便不利，中耳炎，鼻炎，脑漏",
+              "meridian": "膀胱经",
+              "property_flavor": "味甘；咸；性寒",
+              "dosage": "内服：煎汤，5~15g；或研末1.5~3g。外用：适量，研末，吹鼻或麻油调匀滴耳"
+            }
+          },
+          {
+            "name": "石淋",
+            "type": "Disease"
+          },
+          {
+            "name": "小便不利",
+            "type": "Symptom"
+          },
+          {
+            "name": "中耳炎",
+            "type": "Disease"
+          },
+          {
+            "name": "鼻炎",
+            "type": "Disease"
+          },
+          {
+            "name": "脑漏",
+            "type": "Disease"
+          },
+          {
+            "name": "当归",
+            "type": "Herb"
+          },
+          {
+            "name": "《养生必用方》",
+            "type": "Source"
+          },
+          {
+            "name": "《千金方》",
+            "type": "Source"
+          },
+          {
+            "name": "《濒湖集简方》",
+            "type": "Source"
+          },
+          {
+            "name": "《山东中草药手册》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草汇言》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "化石",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "通淋",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消炎",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "石淋",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "中耳炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "鼻炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脑漏",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小便不利",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《日华子本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《开宝本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "当归",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《养生必用方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《千金方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《濒湖集简方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《山东中草药手册》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鱼脑石",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草汇言》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "干岩矸.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "干岩矸",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为罂粟科植物毛黄堇的全草",
+              "property_flavor": "味苦；性凉",
+              "effect": "清热解毒，凉血散瘀",
+              "indication": "流行性感冒，咽喉肿痛，目赤疼痛，咳血，吐血，胃热脘痛，肝郁胁痛，湿热泻痢，痈肿疮毒，跌打肿痛",
+              "dosage": "内服：煎汤，3-9g；或泡茶饮；研末，1.5g，每日3次",
+              "source": "南川《常用中草药手册》"
+            }
+          },
+          {
+            "name": "毛黄堇",
+            "type": "Herb"
+          },
+          {
+            "name": "流行性感冒",
+            "type": "Disease"
+          },
+          {
+            "name": "咽喉肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "目赤疼痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "咳血",
+            "type": "Symptom"
+          },
+          {
+            "name": "吐血",
+            "type": "Symptom"
+          },
+          {
+            "name": "胃热脘痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "肝郁胁痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "湿热泻痢",
+            "type": "Disease"
+          },
+          {
+            "name": "痈肿疮毒",
+            "type": "Disease"
+          },
+          {
+            "name": "跌打肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "清热解毒",
+            "type": "Effect"
+          },
+          {
+            "name": "凉血散瘀",
+            "type": "Effect"
+          },
+          {
+            "name": "南川《常用中草药手册》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "凉血散瘀",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "流行性感冒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "目赤疼痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咳血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "胃热脘痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "肝郁胁痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿热泻痢",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痈肿疮毒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "跌打肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "南川《常用中草药手册》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "干岩矸",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "毛黄堇",
+            "object_type": "Herb"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "桃茎白皮.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "桃茎白皮",
+            "type": "Herb",
+            "attributes": {
+              "alias": "桃皮、桃树皮、桃白皮",
+              "effect": "清热利水，解毒，杀虫",
+              "indication": "水肿，痧气腹痛，肺热喘闷，痈疽，瘰疬，湿疮，风湿关节痛，牙痛，疮痈肿毒，湿癣",
+              "meridian": "肺；脾经",
+              "property_flavor": "苦辛，无毒；苦，平，无毒",
+              "origin": "蔷薇科植物桃或山桃的去掉栓皮的树皮",
+              "usage": "内服：煎汤，9-15g；外用：研末调敷、煎水洗或含漱"
+            }
+          },
+          {
+            "name": "桃皮酒",
+            "type": "Formula",
+            "attributes": {
+              "indication": "水肿"
+            }
+          },
+          {
+            "name": "补缺肘后方",
+            "type": "Source"
+          },
+          {
+            "name": "本草图经",
+            "type": "Source"
+          },
+          {
+            "name": "小品方",
+            "type": "Source"
+          },
+          {
+            "name": "千金方",
+            "type": "Source"
+          },
+          {
+            "name": "圣惠方",
+            "type": "Source"
+          },
+          {
+            "name": "子母秘录",
+            "type": "Source"
+          },
+          {
+            "name": "江苏省中草药新医疗法展览资料选编",
+            "type": "Source"
+          },
+          {
+            "name": "孙思邈",
+            "type": "Source"
+          },
+          {
+            "name": "滇南本草",
+            "type": "Source"
+          },
+          {
+            "name": "本草蒙筌",
+            "type": "Source"
+          },
+          {
+            "name": "纲目",
+            "type": "Source"
+          },
+          {
+            "name": "陆川本草",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热利水",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "杀虫",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "水肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痧气腹痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肺热喘闷",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痈疽",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "瘰疬",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风湿关节痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "牙痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疮痈肿毒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿癣",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "桃皮酒",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "桃茎白皮",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "桃皮酒",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "小品方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "别录",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "滇南本草",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "本草蒙筌",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "纲目",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "陆川本草",
+            "object_type": "Source"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "腹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "喘急悸",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "喉痹",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "桃茎白皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "乳腺炎初起",
+            "object_type": "Disease"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "蛇莓.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "蛇莓",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "甘、苦；寒",
+              "meridian": "肺经；肝经；大肠经",
+              "effect": "清热，凉血，消肿，解毒",
+              "indication": "热病，惊痫，咳嗽，吐血，咽喉肿痛，痢疾，痈肿，疔疮，蛇虫咬伤，汤火伤",
+              "dosage": "内服：煎汤，9~15g(鲜者30~60g)；或捣汁。外用：适量捣敷或研末撒。",
+              "origin": "蔷薇科蛇莓属植物蛇莓Duchesnea indica （Andr.）Focke，以全草入药",
+              "place": "生于山坡、河岸、草地、潮湿的地方；分布于辽宁以南各地"
+            }
+          },
+          {
+            "name": "天行热盛",
+            "type": "Disease"
+          },
+          {
+            "name": "口中生疮",
+            "type": "Symptom"
+          },
+          {
+            "name": "伤暑",
+            "type": "Disease"
+          },
+          {
+            "name": "感冒",
+            "type": "Disease"
+          },
+          {
+            "name": "吐血咯血",
+            "type": "Symptom"
+          },
+          {
+            "name": "咽喉肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "小儿口疮",
+            "type": "Symptom"
+          },
+          {
+            "name": "疟疾",
+            "type": "Disease"
+          },
+          {
+            "name": "黄疸",
+            "type": "Disease"
+          },
+          {
+            "name": "痢疾",
+            "type": "Disease"
+          },
+          {
+            "name": "蛇头疔",
+            "type": "Disease"
+          },
+          {
+            "name": "乳痈",
+            "type": "Disease"
+          },
+          {
+            "name": "背疮",
+            "type": "Disease"
+          },
+          {
+            "name": "疔疮",
+            "type": "Disease"
+          },
+          {
+            "name": "蛇窜丹",
+            "type": "Disease"
+          },
+          {
+            "name": "脓疱疮",
+            "type": "Disease"
+          },
+          {
+            "name": "跌打损伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "蛇咬伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "毒虫咬伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "小面积烧伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "癌肿",
+            "type": "Disease"
+          },
+          {
+            "name": "瘰疬",
+            "type": "Disease"
+          },
+          {
+            "name": "《伤寒类要》",
+            "type": "Source"
+          },
+          {
+            "name": "《福建民间草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《闽东本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《贵阳民间药草》",
+            "type": "Source"
+          },
+          {
+            "name": "《江西民间草药》",
+            "type": "Source"
+          },
+          {
+            "name": "江西《草药手册》",
+            "type": "Source"
+          },
+          {
+            "name": "《上海常用中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "清热",
+            "type": "Effect"
+          },
+          {
+            "name": "凉血",
+            "type": "Effect"
+          },
+          {
+            "name": "消肿",
+            "type": "Effect"
+          },
+          {
+            "name": "解毒",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "凉血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消肿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "天行热盛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "口中生疮",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "伤暑",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "感冒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐血咯血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小儿口疮",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疟疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄疸",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痢疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "蛇头疔",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "乳痈",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "背疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疔疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "蛇窜丹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脓疱疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "跌打损伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "蛇咬伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "毒虫咬伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小面积烧伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "癌肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "瘰疬",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《伤寒类要》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《福建民间草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《闽东本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《贵阳民间药草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《江西民间草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "江西《草药手册》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "蛇莓",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《上海常用中草药》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "银杏叶.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "银杏叶",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "甘、苦、涩，平",
+              "meridian": "心经、肺经",
+              "effect": "益心敛肺，化湿止泻",
+              "indication": "胸闷心痛，心悸怔忡，痰喘咳嗽，泻痢，白带",
+              "dosage": "内服：煎汤，3~9g；或用提取物作片剂；或入丸、散。外用：适量，捣敷或搽；或煎水洗",
+              "taboo": "有实邪者忌用",
+              "origin": "本品为银杏科植物银杏（白果树、公孙树） Ginkgo biloba L．的干燥叶",
+              "place": "秋季叶尚绿时采收，及时干燥",
+              "processing": "去净杂质，筛去泥土",
+              "alias": "飞蛾叶、鸭脚子、白果叶、公孙叶、白果树叶"
+            }
+          },
+          {
+            "name": "高血压",
+            "type": "Disease"
+          },
+          {
+            "name": "动脉硬化",
+            "type": "Disease"
+          },
+          {
+            "name": "大动脉炎",
+            "type": "Disease"
+          },
+          {
+            "name": "闭塞性脉管炎",
+            "type": "Disease"
+          },
+          {
+            "name": "心绞痛",
+            "type": "Disease"
+          },
+          {
+            "name": "心肌梗死",
+            "type": "Disease"
+          },
+          {
+            "name": "脑栓塞",
+            "type": "Disease"
+          },
+          {
+            "name": "再生障碍性贫血",
+            "type": "Disease"
+          },
+          {
+            "name": "冠心病心绞痛",
+            "type": "Disease"
+          },
+          {
+            "name": "血清胆固醇过高症",
+            "type": "Disease"
+          },
+          {
+            "name": "泻痢",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿肠炎",
+            "type": "Disease"
+          },
+          {
+            "name": "雀斑",
+            "type": "Symptom"
+          },
+          {
+            "name": "灰指甲",
+            "type": "Disease"
+          },
+          {
+            "name": "鸡眼",
+            "type": "Disease"
+          },
+          {
+            "name": "漆疮肿痒",
+            "type": "Symptom"
+          },
+          {
+            "name": "《陕甘宁青中草药选》",
+            "type": "Source"
+          },
+          {
+            "name": "《安徽中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《全国中草药汇编》",
+            "type": "Source"
+          },
+          {
+            "name": "《品汇精要》",
+            "type": "Source"
+          },
+          {
+            "name": "《滇南本草》",
+            "type": "Source"
+          },
+          {
+            "name": "南药（《中草药学》）",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "益心敛肺",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "化湿止泻",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "高血压",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "动脉硬化",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "大动脉炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "闭塞性脉管炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "心绞痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "心肌梗死",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脑栓塞",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "再生障碍性贫血",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "冠心病心绞痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "血清胆固醇过高症",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "泻痢",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿肠炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "雀斑",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "灰指甲",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "鸡眼",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "漆疮肿痒",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《陕甘宁青中草药选》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《安徽中草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《全国中草药汇编》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《品汇精要》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《滇南本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "银杏叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "南药（《中草药学》）",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "四念癀.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "四念癀",
+            "type": "Herb",
+            "attributes": {
+              "indication": "鹤膝风，阴证疮疡，毒蛇及狂犬咬伤",
+              "effect": "祛风散寒，活血解毒",
+              "meridian": "肝经",
+              "property_flavor": "苦；酸；性温",
+              "origin": "为报春花科植物琉璃繁缕的全草",
+              "dosage": "内服：煎汤，9-15g，鲜品15-30g；或捣汁。外用：适量，鲜品捣敷。",
+              "traits": "全草皱缩。茎具4棱，直径约1mm，表面黄褐色，无毛。叶对生，多破碎，展平后呈卵形或阔椭圆形，长0.3-1.0cm，宽2-6mm,全缘，上面棕黄色,下面黄绿色，无柄。花单生于叶腋；花萼常深裂达基部，裂片5，披针形或钻形，花冠淡红色，5深裂。气微，味酸、涩。",
+              "place": "生于原野、田边、湿地；分布于浙江、福建、台湾、广东等地"
+            }
+          },
+          {
+            "name": "鹤膝风",
+            "type": "Disease"
+          },
+          {
+            "name": "阴证疮疡",
+            "type": "Disease"
+          },
+          {
+            "name": "毒蛇咬伤",
+            "type": "Disease"
+          },
+          {
+            "name": "狂犬咬伤",
+            "type": "Disease"
+          },
+          {
+            "name": "祛风散寒",
+            "type": "Effect"
+          },
+          {
+            "name": "活血解毒",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "祛风散寒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "活血解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "鹤膝风",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "阴证疮疡",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "毒蛇咬伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "狂犬咬伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "毒蛇咬伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "四念癀",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "狂犬咬伤",
+            "object_type": "Disease"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "毛木通.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "毛木通",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为毛茛科植物毛木通的藤茎",
+              "property_flavor": "味甘；辛；苦；性凉",
+              "effect": "清热利咽，利尿通淋，活血止痛",
+              "indication": "咽喉炎，扁桃体炎，淋证，跌打损伤",
+              "dosage": "内服；煎场，9～15g",
+              "taboo": null,
+              "traits": null,
+              "meridian": null,
+              "place": null,
+              "processing": null
+            }
+          },
+          {
+            "name": "咽喉炎",
+            "type": "Disease"
+          },
+          {
+            "name": "扁桃体炎",
+            "type": "Disease"
+          },
+          {
+            "name": "淋证",
+            "type": "Disease"
+          },
+          {
+            "name": "跌打损伤",
+            "type": "Disease"
+          },
+          {
+            "name": "清热利咽",
+            "type": "Effect"
+          },
+          {
+            "name": "利尿通淋",
+            "type": "Effect"
+          },
+          {
+            "name": "活血止痛",
+            "type": "Effect"
+          },
+          {
+            "name": "《成都中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《四川中药志》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热利咽",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利尿通淋",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "活血止痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "咽喉炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "扁桃体炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "淋证",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "跌打损伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《成都中草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "毛木通",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《四川中药志》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "寒水石.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "寒水石",
+            "type": "Herb",
+            "attributes": {
+              "alias": "凝水石、白水石、凌水石、盐精、水石、冰石、鹊石、盐精石、泥精、盐枕、盐根",
+              "effect": "清热降火，利窍，消肿",
+              "indication": "时行热病，积热烦渴，吐泻，水肿，尿闭，齿衄，丹毒，烫伤",
+              "meridian": "心经、胃经、肾经",
+              "property_flavor": "辛咸，寒",
+              "taboo": "脾胃虚寒者忌服；畏地输；阴虚火旺，咳嗽吐血，多痰，潮热骨蒸，并脾胃作泄者不宜服；虚人热浮，切忌",
+              "dosage": "内服：煎汤，9～15克；或入丸、散。外用：研末掺或调敷"
+            }
+          },
+          {
+            "name": "石膏",
+            "type": "Herb"
+          },
+          {
+            "name": "滑石",
+            "type": "Herb"
+          },
+          {
+            "name": "甘草",
+            "type": "Herb"
+          },
+          {
+            "name": "黄连",
+            "type": "Herb"
+          },
+          {
+            "name": "大黄",
+            "type": "Herb"
+          },
+          {
+            "name": "干姜",
+            "type": "Herb"
+          },
+          {
+            "name": "龙骨",
+            "type": "Herb"
+          },
+          {
+            "name": "桂枝",
+            "type": "Herb"
+          },
+          {
+            "name": "牡蛎",
+            "type": "Herb"
+          },
+          {
+            "name": "赤石脂",
+            "type": "Herb"
+          },
+          {
+            "name": "白石脂",
+            "type": "Herb"
+          },
+          {
+            "name": "紫石英",
+            "type": "Herb"
+          },
+          {
+            "name": "天竺黄",
+            "type": "Herb"
+          },
+          {
+            "name": "冰片",
+            "type": "Herb"
+          },
+          {
+            "name": "糯米",
+            "type": "Herb"
+          },
+          {
+            "name": "冬葵子",
+            "type": "Herb"
+          },
+          {
+            "name": "朱砂",
+            "type": "Herb"
+          },
+          {
+            "name": "樟脑",
+            "type": "Herb"
+          },
+          {
+            "name": "白石脂",
+            "type": "Herb"
+          },
+          {
+            "name": "瓜蒌",
+            "type": "Herb"
+          },
+          {
+            "name": "菟丝子",
+            "type": "Herb"
+          },
+          {
+            "name": "知母",
+            "type": "Herb"
+          },
+          {
+            "name": "桂心",
+            "type": "Herb"
+          },
+          {
+            "name": "炉甘石",
+            "type": "Herb"
+          },
+          {
+            "name": "猪脂",
+            "type": "Herb"
+          },
+          {
+            "name": "款冬花",
+            "type": "Herb"
+          },
+          {
+            "name": "半夏",
+            "type": "Herb"
+          },
+          {
+            "name": "明矾",
+            "type": "Herb"
+          },
+          {
+            "name": "生姜",
+            "type": "Herb"
+          },
+          {
+            "name": "风引汤",
+            "type": "Formula",
+            "attributes": {
+              "indication": "除热瘫痫"
+            }
+          },
+          {
+            "name": "龙脑甘露丸",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治风热心躁，口干狂言，浑身壮热及中诸毒"
+            }
+          },
+          {
+            "name": "太白膏",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治痈疽"
+            }
+          },
+          {
+            "name": "白云换肺丸",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治远年近日喘嗽不止"
+            }
+          },
+          {
+            "name": "寒水石散",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治饮酒致肉疸、饮少、小便多、白如泔色"
+            }
+          },
+          {
+            "name": "鹊石散",
+            "type": "Formula",
+            "attributes": {
+              "indication": "治伤寒发狂，或弃衣奔走，逾墙上屋"
+            }
+          },
+          {
+            "name": "方脉正宗",
+            "type": "Source"
+          },
+          {
+            "name": "本事方",
+            "type": "Source"
+          },
+          {
+            "name": "金匮要略",
+            "type": "Source"
+          },
+          {
+            "name": "姚僧坦集验方",
+            "type": "Source"
+          },
+          {
+            "name": "永类钤方",
+            "type": "Source"
+          },
+          {
+            "name": "本草汇言",
+            "type": "Source"
+          },
+          {
+            "name": "普济方",
+            "type": "Source"
+          },
+          {
+            "name": "卫生易简方",
+            "type": "Source"
+          },
+          {
+            "name": "千金翼方",
+            "type": "Source"
+          },
+          {
+            "name": "中山医学院《中药临床应用》",
+            "type": "Source"
+          },
+          {
+            "name": "奇效良方",
+            "type": "Source"
+          },
+          {
+            "name": "时行热病",
+            "type": "Disease"
+          },
+          {
+            "name": "积热烦渴",
+            "type": "Symptom"
+          },
+          {
+            "name": "吐泻",
+            "type": "Symptom"
+          },
+          {
+            "name": "水肿",
+            "type": "Symptom"
+          },
+          {
+            "name": "尿闭",
+            "type": "Symptom"
+          },
+          {
+            "name": "齿衄",
+            "type": "Symptom"
+          },
+          {
+            "name": "丹毒",
+            "type": "Disease"
+          },
+          {
+            "name": "烫伤",
+            "type": "Disease"
+          },
+          {
+            "name": "伤寒发狂",
+            "type": "Disease"
+          },
+          {
+            "name": "风热心躁",
+            "type": "Disease"
+          },
+          {
+            "name": "转脬",
+            "type": "Disease"
+          },
+          {
+            "name": "肉疸",
+            "type": "Disease"
+          },
+          {
+            "name": "喘嗽",
+            "type": "Symptom"
+          },
+          {
+            "name": "痈疽",
+            "type": "Disease"
+          },
+          {
+            "name": "清热降火",
+            "type": "Effect"
+          },
+          {
+            "name": "利窍",
+            "type": "Effect"
+          },
+          {
+            "name": "消肿",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热降火",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利窍",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消肿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "时行热病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "积热烦渴",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐泻",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "水肿",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "尿闭",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "齿衄",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "丹毒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "寒水石",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "烫伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "大黄",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "干姜",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "龙骨",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "桂枝",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "甘草",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "牡蛎",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "滑石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "赤石脂",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "白石脂",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "紫石英",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "石膏",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "风引汤",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "金匮要略",
+            "object_type": "Source"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "甘草",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "天竺黄",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "冰片",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "糯米",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "龙脑甘露丸",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "姚僧坦集验方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "鹊石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "鹊石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "黄连",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "鹊石散",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "本事方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "太白膏",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "太白膏",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "猪脂",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "太白膏",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "本事方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "款冬花",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "半夏",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "明矾",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "生姜",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白云换肺丸",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "奇效良方",
+            "object_type": "Source"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "寒水石",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "白石脂",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "瓜蒌",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "菟丝子",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "知母",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "桂心",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "寒水石散",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "千金翼方",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "丝带蕨.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "丝带蕨",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为水龙骨科植物丝带蕨的全草",
+              "property_flavor": "甘；凉",
+              "meridian": "肝；肾经",
+              "effect": "清热熄风，活血",
+              "indication": "小儿惊风，劳伤",
+              "dosage": "内服：煎汤，9-18g；或浸酒",
+              "taboo": null
+            }
+          },
+          {
+            "name": "小儿惊风",
+            "type": "Symptom"
+          },
+          {
+            "name": "劳伤",
+            "type": "Disease"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "丝带蕨",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热熄风",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "丝带蕨",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "活血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "丝带蕨",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "劳伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "丝带蕨",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小儿惊风",
+            "object_type": "Symptom"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "吊干麻.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "吊干麻",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "内服：煎汤，15-30g；或泡酒。外用：适量，煎水洗；或捣烂、研末敷。",
+              "effect": "祛风除湿，活血通经，解毒杀虫",
+              "indication": "风湿痹痛，骨折伤痛，闭经，疮疡溃烂，头癣，阴痒",
+              "meridian": "肺；肝；肾经",
+              "property_flavor": "辛；苦；凉；小毒",
+              "origin": "为卫矛科植物苦皮藤的根或根皮",
+              "place": "生于山坡密林下或灌木丛中。分布于陕西、甘肃、山东、江苏、安徽、浙江、湖北、湖南、广东、广西、四川、贵州、云南。",
+              "processing": "全年均可采。洗净，剥取根皮，晒干"
+            }
+          },
+          {
+            "name": "苦树皮",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为卫矛科植物苦皮藤的根皮"
+            }
+          },
+          {
+            "name": "风湿痹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "骨折伤痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "闭经",
+            "type": "Symptom"
+          },
+          {
+            "name": "疮疡溃烂",
+            "type": "Symptom"
+          },
+          {
+            "name": "头癣",
+            "type": "Symptom"
+          },
+          {
+            "name": "阴痒",
+            "type": "Symptom"
+          },
+          {
+            "name": "小儿麻疹不出",
+            "type": "Disease"
+          },
+          {
+            "name": "风湿",
+            "type": "Disease"
+          },
+          {
+            "name": "劳伤",
+            "type": "Disease"
+          },
+          {
+            "name": "关节疼痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "经闭",
+            "type": "Disease"
+          },
+          {
+            "name": "秃疮",
+            "type": "Disease"
+          },
+          {
+            "name": "黄水疮",
+            "type": "Disease"
+          },
+          {
+            "name": "阴道发痒",
+            "type": "Symptom"
+          },
+          {
+            "name": "《贵州草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《陕西中草药》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "祛风除湿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "活血通经",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解毒杀虫",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿麻疹不出",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风湿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "劳伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "关节疼痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "经闭",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "秃疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄水疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "阴道发痒",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "苦树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "秃疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "苦树皮",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄水疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "苦树皮",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "阴道发痒",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "吊干麻",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《贵州草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "苦树皮",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《陕西中草药》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "芋头花.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "芋头花",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "内服：煎汤，15-30g；外用：适量，捣敷",
+              "effect": "理气止痛，散瘀止血",
+              "indication": "胃痛，吐血，子宫脱垂，痔疮，脱肛",
+              "meridian": "胃；大肠经",
+              "property_flavor": "味辛；性平；有毒",
+              "taboo": "无炎症及出血者忌用",
+              "origin": "为天南星科植物芋的花蕾"
+            }
+          },
+          {
+            "name": "胃痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "吐血",
+            "type": "Symptom"
+          },
+          {
+            "name": "子宫脱垂",
+            "type": "Disease"
+          },
+          {
+            "name": "痔疮",
+            "type": "Disease"
+          },
+          {
+            "name": "脱肛",
+            "type": "Symptom"
+          },
+          {
+            "name": "鹤膝风",
+            "type": "Disease"
+          },
+          {
+            "name": "腊肉",
+            "type": "Herb"
+          },
+          {
+            "name": "生姜",
+            "type": "Herb"
+          },
+          {
+            "name": "葱子",
+            "type": "Herb"
+          },
+          {
+            "name": "灰面",
+            "type": "Herb"
+          },
+          {
+            "name": "《四川中药志》",
+            "type": "Source"
+          },
+          {
+            "name": "江西《草药手册》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "理气止痛，散瘀止血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "胃痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "子宫脱垂",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痔疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "脱肛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "鹤膝风",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《四川中药志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "江西《草药手册》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "腊肉",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "生姜",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "葱子",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "芋头花",
+            "subject_type": "Herb",
+            "relation": "HAS_INGREDIENT",
+            "object": "灰面",
+            "object_type": "Herb"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "粟米.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "粟米",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为禾本科植物粱或粟的种仁",
+              "property_flavor": "味甘；咸；性凉",
+              "meridian": "肾；脾；胃经",
+              "indication": "主治脾胃虚热，反胃呕吐，消渴，泄泻",
+              "effect": "和中益肾，除热解毒",
+              "dosage": "内服：煎汤，15-30g；或煮粥。外用：适量，研末撒；或熬汁涂",
+              "taboo": "与杏仁同食，令人吐泻",
+              "processing": "储存陈久者名陈粟米、粢",
+              "alias": "白梁粟，粟谷，小米，硬粟，籼粟，谷子，寒粟，黄粟，稞子，白粱米"
+            }
+          },
+          {
+            "name": "陈粟米",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "苦，寒",
+              "indication": "止痢，解烦闷",
+              "effect": "止痢，解烦闷"
+            }
+          },
+          {
+            "name": "《食医心镜》",
+            "type": "Source"
+          },
+          {
+            "name": "《兵部手集方》",
+            "type": "Source"
+          },
+          {
+            "name": "《崔氏纂要方》",
+            "type": "Source"
+          },
+          {
+            "name": "《圣惠方》",
+            "type": "Source"
+          },
+          {
+            "name": "《普济方》",
+            "type": "Source"
+          },
+          {
+            "name": "脾胃虚热",
+            "type": "Disease"
+          },
+          {
+            "name": "反胃呕吐",
+            "type": "Symptom"
+          },
+          {
+            "name": "消渴",
+            "type": "Disease"
+          },
+          {
+            "name": "泄泻",
+            "type": "Symptom"
+          },
+          {
+            "name": "赤丹",
+            "type": "Disease"
+          },
+          {
+            "name": "汤火灼伤",
+            "type": "Disease"
+          },
+          {
+            "name": "中风",
+            "type": "Disease"
+          },
+          {
+            "name": "言语蹇涩",
+            "type": "Symptom"
+          },
+          {
+            "name": "精神昏愦",
+            "type": "Symptom"
+          },
+          {
+            "name": "手脚不遂",
+            "type": "Symptom"
+          },
+          {
+            "name": "口喎面戾",
+            "type": "Symptom"
+          },
+          {
+            "name": "蓐劳",
+            "type": "Disease"
+          },
+          {
+            "name": "和中益肾",
+            "type": "Effect"
+          },
+          {
+            "name": "除热解毒",
+            "type": "Effect"
+          },
+          {
+            "name": "止痢",
+            "type": "Effect"
+          },
+          {
+            "name": "解烦闷",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "和中益肾",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "除热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脾胃虚热",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "反胃呕吐",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "消渴",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "泄泻",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "陈粟米",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止痢",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "陈粟米",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解烦闷",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《食医心镜》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《兵部手集方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《崔氏纂要方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《圣惠方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "粱豉汤",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "《普济方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "赤丹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "粟米",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "汤火灼伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "中风",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "言语蹇涩",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "精神昏愦",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "手脚不遂",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白粱米",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "口喎面戾",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "粱豉汤",
+            "subject_type": "Formula",
+            "relation": "TREATS_DISEASE",
+            "object": "蓐劳",
+            "object_type": "Disease"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "鹿筋.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "鹿筋",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "咸，温",
+              "meridian": "肝、肾经",
+              "effect": "补肝肾，强筋骨，祛风湿",
+              "indication": "肝肾亏虚，劳伤，风湿痹痛，转筋，腰痛",
+              "dosage": "内服：煎汤或煮食，60-120g",
+              "taboo": "有湿热者慎用"
+            }
+          },
+          {
+            "name": "肝肾亏虚",
+            "type": "Disease"
+          },
+          {
+            "name": "劳伤",
+            "type": "Disease"
+          },
+          {
+            "name": "风湿痹痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "转筋",
+            "type": "Symptom"
+          },
+          {
+            "name": "腰痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "补肝肾",
+            "type": "Effect"
+          },
+          {
+            "name": "强筋骨",
+            "type": "Effect"
+          },
+          {
+            "name": "祛风湿",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "补肝肾",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "强筋骨",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "祛风湿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肝肾亏虚",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "劳伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "风湿痹痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "转筋",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "鹿筋",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "腰痛",
+            "object_type": "Symptom"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "带鱼.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "带鱼",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "味甘；性平",
+              "meridian": "胃经",
+              "indication": "病后体虚，产后乳汁不足，疮疖痈肿，外伤出血",
+              "effect": "补虚，解毒，止血",
+              "dosage": "内服：鱼肉煎汤或炖服，150-250g；或蒸食其油；或烧存性研末。外用：鱼鳞适量，敷患处",
+              "taboo": "不宜多食。①《药性考》:多食发疥。②《随息居饮食谱》:发疥动风，病人忌食"
+            }
+          },
+          {
+            "name": "病后体虚",
+            "type": "Disease"
+          },
+          {
+            "name": "产后乳汁不足",
+            "type": "Disease"
+          },
+          {
+            "name": "疮疖痈肿",
+            "type": "Disease"
+          },
+          {
+            "name": "外伤出血",
+            "type": "Symptom"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "病后体虚",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "产后乳汁不足",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疮疖痈肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "外伤出血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "补虚",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "带鱼",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止血",
+            "object_type": "Effect"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "白茅根.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "白茅根",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "甘；寒",
+              "meridian": "肺经；胃经；心经；膀胱经",
+              "indication": "热病烦渴，吐血，衄血，肺热喘急，胃热哕逆，淋病，小便不利，水肿，黄疸",
+              "effect": "凉血，止血，清热生津，利尿通淋",
+              "taboo": "脾胃虚寒，溲多不渴者忌服；因寒发哕，中寒呕吐，湿痰停饮发热，并不得服；吐血因于虚寒者，非所宜也",
+              "dosage": "内服：煎汤，10~30g，鲜品30~60g；或捣汁。外用：适量，鲜品捣汁涂",
+              "origin": "禾本科植物白茅的根茎",
+              "place": "全国大部分地区均产",
+              "processing": "干茅根：拣净杂质，洗净，微润，切段，晒干，簸净碎屑；茅根炭：取茅根段，置锅内用武火炒至黑色，喷洒清水，取出，晒干",
+              "traits": "干燥的根茎，呈细长圆柱形，有时分枝，表面乳白色或黄白色，有浅棕黄色、微隆起的节，质轻而韧，不易折断，断面纤维性，中心黄白色，并有一小孔，外圈色白，充实，或有无数空隙如车轮状"
+            }
+          },
+          {
+            "name": "吐血",
+            "type": "Symptom"
+          },
+          {
+            "name": "衄血",
+            "type": "Symptom"
+          },
+          {
+            "name": "肺热喘急",
+            "type": "Symptom"
+          },
+          {
+            "name": "胃热哕逆",
+            "type": "Symptom"
+          },
+          {
+            "name": "淋病",
+            "type": "Disease"
+          },
+          {
+            "name": "小便不利",
+            "type": "Symptom"
+          },
+          {
+            "name": "水肿",
+            "type": "Symptom"
+          },
+          {
+            "name": "黄疸",
+            "type": "Disease"
+          },
+          {
+            "name": "热病烦渴",
+            "type": "Symptom"
+          },
+          {
+            "name": "凉血",
+            "type": "Effect"
+          },
+          {
+            "name": "止血",
+            "type": "Effect"
+          },
+          {
+            "name": "清热生津",
+            "type": "Effect"
+          },
+          {
+            "name": "利尿通淋",
+            "type": "Effect"
+          },
+          {
+            "name": "《本经》",
+            "type": "Source"
+          },
+          {
+            "name": "《别录》",
+            "type": "Source"
+          },
+          {
+            "name": "《日华子本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《滇南本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《纲目》",
+            "type": "Source"
+          },
+          {
+            "name": "《本经逢原》",
+            "type": "Source"
+          },
+          {
+            "name": "《动植物民间药》",
+            "type": "Source"
+          },
+          {
+            "name": "《千金翼方》",
+            "type": "Source"
+          },
+          {
+            "name": "《妇人良方》",
+            "type": "Source"
+          },
+          {
+            "name": "《圣惠方》",
+            "type": "Source"
+          },
+          {
+            "name": "《小品方》",
+            "type": "Source"
+          },
+          {
+            "name": "《千金方》",
+            "type": "Source"
+          },
+          {
+            "name": "《肘后方》",
+            "type": "Source"
+          },
+          {
+            "name": "《医学衷中参西录》",
+            "type": "Source"
+          },
+          {
+            "name": "《补缺肘后方》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草经疏》",
+            "type": "Source"
+          },
+          {
+            "name": "《南方主要有毒植物》",
+            "type": "Source"
+          },
+          {
+            "name": "如神汤",
+            "type": "Formula",
+            "attributes": {
+              "indication": "肺热气喘",
+              "usage": "治肺热气喘。用生茅根一把，口咬细，加水二碗，煮成一碗，饭后温服。三服病愈。",
+              "effect": "清肺热，止喘"
+            }
+          },
+          {
+            "name": "茅根汤",
+            "type": "Formula",
+            "attributes": {
+              "indication": "温病有热，饮水暴冷哕者",
+              "usage": "茅根、葛根（各切）半升。以水四升，煮取二升，稍温饮之，啘止则停。"
+            }
+          },
+          {
+            "name": "白茅根汤",
+            "type": "Formula",
+            "attributes": {
+              "indication": "阳虚不能化阴，小便不利，或有湿热壅滞，以致小便不利，积成水肿",
+              "usage": "掘取鲜白茅根一斤，去净皮与节间小根，细切，用水四大碗，煮一沸，移炉旁候十数分钟，视根不沉则再煮，待根沉水底去渣温服，日服五、六次，夜服两、三次。"
+            }
+          }
+        ],
+        "relations": [
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "凉血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止血",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热生津",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利尿通淋",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "淋病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄疸",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "衄血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "肺热喘急",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "胃热哕逆",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "小便不利",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "水肿",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "热病烦渴",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "如神汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "白茅根",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "茅根汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "白茅根",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "白茅根汤",
+            "subject_type": "Formula",
+            "relation": "HAS_INGREDIENT",
+            "object": "白茅根",
+            "object_type": "Herb"
+          },
+          {
+            "subject": "如神汤",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "《圣惠方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "茅根汤",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "《小品方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根汤",
+            "subject_type": "Formula",
+            "relation": "FROM_SOURCE",
+            "object": "《医学衷中参西录》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本经》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《别录》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《日华子本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《滇南本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本经逢原》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《动植物民间药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《千金翼方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《妇人良方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《圣惠方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《肘后方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《补缺肘后方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草经疏》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "白茅根",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《南方主要有毒植物》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "隔山消.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "隔山消",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "内服：煎汤，9~15g；外用：鲜品适量，捣敷",
+              "effect": "补肝肾，强筋骨，健脾顺气，镇静止痛，催乳，清热解毒，顺气止痢",
+              "indication": "肝肾两虚，头昏眼花，失眠健忘，须发早白，阳痿，遗精，腰膝酸软，脾虚不运，脘腹胀满，食欲不振，泄泻，产后乳少，鱼口疮毒，胃痛腹胀，虚劳，小儿痞块，白带，肾炎水肿，胃及十二指肠溃疡",
+              "meridian": "脾经；胃经；肾经",
+              "origin": "为萝藦科植物耳叶牛皮消的块根",
+              "place": "秋季采收，洗净，晒干",
+              "processing": "干燥块根呈圆柱形，微弯曲，外表黄褐色或红棕色，栓皮粗糙，有明显纵横皱纹",
+              "property_flavor": "味甘；微苦；性微温",
+              "taboo": null,
+              "traits": "质坚硬，断面淡黄棕色，粉质，有辐射状花纹及鲜黄色孔点。气无，味先苦后甜",
+              "alias": "隔山撬、隔山牛皮消、白首乌、白何首乌、山瓜蒌、牛皮消、和尚乌、泰山首乌、泰山白首乌"
+            }
+          },
+          {
+            "name": "痢疾",
+            "type": "Disease"
+          },
+          {
+            "name": "食积饱胀",
+            "type": "Disease"
+          },
+          {
+            "name": "胃气痛",
+            "type": "Disease"
+          },
+          {
+            "name": "多年老胃病",
+            "type": "Disease"
+          },
+          {
+            "name": "气膈噎食",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿痞块",
+            "type": "Disease"
+          },
+          {
+            "name": "小儿疳疾",
+            "type": "Disease"
+          },
+          {
+            "name": "食疟",
+            "type": "Disease"
+          },
+          {
+            "name": "产后乳少",
+            "type": "Symptom"
+          },
+          {
+            "name": "《江西草药》",
+            "type": "Source"
+          },
+          {
+            "name": "贵州《常用民间草药手册》",
+            "type": "Source"
+          },
+          {
+            "name": "《孙天仁集效方》",
+            "type": "Source"
+          },
+          {
+            "name": "《陕西中草药》",
+            "type": "Source"
+          },
+          {
+            "name": "《四川中药志》",
+            "type": "Source"
+          },
+          {
+            "name": "《贵阳民间药草》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痢疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "食积饱胀",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "胃气痛",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "多年老胃病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "气膈噎食",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿痞块",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "小儿疳疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "食疟",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "产后乳少",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《江西草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "贵州《常用民间草药手册》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《孙天仁集效方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《陕西中草药》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《四川中药志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《贵阳民间药草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "补肝肾",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "强筋骨",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "健脾顺气",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "镇静止痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "催乳",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "隔山消",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "顺气止痢",
+            "object_type": "Effect"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "胡颓子叶.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "胡颓子叶",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "味酸；性微温",
+              "meridian": "肺经",
+              "effect": "止咳平喘，止血，解毒",
+              "indication": "肺虚咳嗽，气喘，咳血，吐血，外伤出血，痈疽，痔疮肿痛",
+              "dosage": "内服：煎汤，9~15g；或研末，每次2~3g。外用：适量，捣敷、研末调敷或煎汤熏洗"
+            }
+          },
+          {
+            "name": "肺虚咳嗽",
+            "type": "Symptom"
+          },
+          {
+            "name": "气喘",
+            "type": "Symptom"
+          },
+          {
+            "name": "咳血",
+            "type": "Symptom"
+          },
+          {
+            "name": "吐血",
+            "type": "Symptom"
+          },
+          {
+            "name": "外伤出血",
+            "type": "Symptom"
+          },
+          {
+            "name": "痈疽",
+            "type": "Symptom"
+          },
+          {
+            "name": "痔疮肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "支气管哮喘",
+            "type": "Disease"
+          },
+          {
+            "name": "慢性支气管炎",
+            "type": "Disease"
+          },
+          {
+            "name": "肺结核咳血",
+            "type": "Disease"
+          },
+          {
+            "name": "蜂咬伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "蛇咬伤",
+            "type": "Symptom"
+          },
+          {
+            "name": "《中藏经》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草纲目》",
+            "type": "Source"
+          },
+          {
+            "name": "《泉州本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《闽东本草》",
+            "type": "Source"
+          },
+          {
+            "name": "《浙江民间常用草药》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "止咳平喘，止血，解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "肺虚咳嗽",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "气喘",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咳血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "吐血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "外伤出血",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痈疽",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "痔疮肿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "支气管哮喘",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "慢性支气管炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肺结核咳血",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "蜂咬伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "蛇咬伤",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《中藏经》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《泉州本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《闽东本草》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "胡颓子叶",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《浙江民间常用草药》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "荠菜子.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "荠菜子",
+            "type": "Herb",
+            "attributes": {
+              "origin": "为十字花科植物荠菜的种子",
+              "property_flavor": "甘；平",
+              "meridian": "肝经",
+              "indication": "祛风，明目。治目痛，青盲，翳障",
+              "dosage": "内服:煎汤，9~15克",
+              "effect": "祛风，明目"
+            }
+          },
+          {
+            "name": "黄疸",
+            "type": "Disease"
+          },
+          {
+            "name": "大青根或叶",
+            "type": "Herb"
+          },
+          {
+            "name": "《湖南药物志》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄疸",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "祛风",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "明目",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "目痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "青盲",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "翳障",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "荠菜子",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《湖南药物志》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "威灵仙.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "威灵仙",
+            "type": "Herb",
+            "attributes": {
+              "dosage": "内服：煎汤，6~9g，治骨哽咽喉可用到30g；或入丸、散；或浸酒。外用：适量，捣敷；或煎水熏洗；或作发泡剂。",
+              "effect": "祛风除湿，通络止痛，消痰涎，散癖积",
+              "indication": "痛风、顽痹、腰膝冷痛，脚气，疟疾，癥瘕积聚，破伤风，扁桃体炎，诸骨鲠咽",
+              "meridian": "膀胱经；肝经",
+              "property_flavor": "味辛；咸；微苦；性温；小毒",
+              "taboo": "气虚血弱，无风寒湿邪者忌服。恶茶及面汤。性快，多服疏人五脏真气。凡病非风湿及阳盛火升，血虚有热，表虚有汗，痃疟口渴身热者，并忌用之。凡病血虚生风，或气虚生痰，脾虚不运，气留生湿、生痰、生饮者，咸宜禁之。",
+              "traits": "攀援性灌木，根多数丛生，细长，外皮黑褐。茎干后黑色。叶对生，羽状复叶，小叶通常5片。圆锥花序腋生及顶生。瘦果扁平状卵形，花柱宿存，延长呈白色羽毛状。",
+              "origin": "为毛莨科植物威灵仙的根",
+              "place": "生于山野、田埂及路旁。分布河南、山东、安徽、江苏、浙江、福建、广东、广西、江西、湖南、湖北、四川、贵州、云南等地。主产江苏、安徽、浙江等地。",
+              "processing": "威灵仙：拣净杂质，除去残茎，用水浸泡，捞出润透，切段，晒干。酒灵仙：取威灵仙段，用黄酒拌匀闷透，置锅内用文火微炒干，取出放凉。（每威灵仙100斤，用黄酒12~15斤）"
+            }
+          },
+          {
+            "name": "痛风",
+            "type": "Disease"
+          },
+          {
+            "name": "顽痹",
+            "type": "Disease"
+          },
+          {
+            "name": "腰膝冷痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "脚气",
+            "type": "Disease"
+          },
+          {
+            "name": "疟疾",
+            "type": "Disease"
+          },
+          {
+            "name": "癥瘕积聚",
+            "type": "Disease"
+          },
+          {
+            "name": "破伤风",
+            "type": "Disease"
+          },
+          {
+            "name": "扁桃体炎",
+            "type": "Disease"
+          },
+          {
+            "name": "诸骨鲠咽",
+            "type": "Disease"
+          },
+          {
+            "name": "风湿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "噎膈",
+            "type": "Disease"
+          },
+          {
+            "name": "痞积",
+            "type": "Disease"
+          },
+          {
+            "name": "祛风除湿",
+            "type": "Effect"
+          },
+          {
+            "name": "通络止痛",
+            "type": "Effect"
+          },
+          {
+            "name": "消痰涎",
+            "type": "Effect"
+          },
+          {
+            "name": "散癖积",
+            "type": "Effect"
+          },
+          {
+            "name": "《普济方》",
+            "type": "Source"
+          },
+          {
+            "name": "《海上集验方》",
+            "type": "Source"
+          },
+          {
+            "name": "孙兆·放杖丸",
+            "type": "Source"
+          },
+          {
+            "name": "《圣惠方》",
+            "type": "Source"
+          },
+          {
+            "name": "《简便单方》",
+            "type": "Source"
+          },
+          {
+            "name": "《本草原始》",
+            "type": "Source"
+          },
+          {
+            "name": "《唐瑶经验方》",
+            "type": "Source"
+          },
+          {
+            "name": "《纲目》",
+            "type": "Source"
+          },
+          {
+            "name": "《摘元方》",
+            "type": "Source"
+          },
+          {
+            "name": "《圣济总录》",
+            "type": "Source"
+          },
+          {
+            "name": "《外科精义》",
+            "type": "Source"
+          },
+          {
+            "name": "《痈疽神秘验方》",
+            "type": "Source"
+          },
+          {
+            "name": "《卫生易简方》",
+            "type": "Source"
+          },
+          {
+            "name": "《仙拈集》",
+            "type": "Source"
+          },
+          {
+            "name": "《全展选编·五官科》",
+            "type": "Source"
+          },
+          {
+            "name": "《儒门事亲》",
+            "type": "Source"
+          },
+          {
+            "name": "《浙江中医杂志》",
+            "type": "Source"
+          },
+          {
+            "name": "《医学正传》",
+            "type": "Source"
+          },
+          {
+            "name": "《鸡峰普济方》",
+            "type": "Source"
+          },
+          {
+            "name": "《上海中医药杂志》",
+            "type": "Source"
+          },
+          {
+            "name": "《外科大成》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痛风",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "顽痹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "脚气",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疟疾",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "癥瘕积聚",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "破伤风",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "扁桃体炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "诸骨鲠咽",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "噎膈",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痞积",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "腰膝冷痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "风湿痛",
+            "object_type": "Symptom"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "祛风除湿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "通络止痛",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "消痰涎",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "散癖积",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《普济方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《海上集验方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "孙兆·放杖丸",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《圣惠方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《简便单方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《本草原始》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《唐瑶经验方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《纲目》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《摘元方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《圣济总录》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《外科精义》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《痈疽神秘验方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《卫生易简方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《仙拈集》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《全展选编·五官科》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《儒门事亲》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《浙江中医杂志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《医学正传》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《鸡峰普济方》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《上海中医药杂志》",
+            "object_type": "Source"
+          },
+          {
+            "subject": "威灵仙",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《外科大成》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "狗舌草.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "狗舌草",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "苦，寒",
+              "effect": "清热解毒，利水消肿，杀虫",
+              "indication": "肿脓疡，疖肿，尿路感染，肾炎水肿，口腔炎，跌打损伤，湿疹，疥疮，阴道滴虫",
+              "dosage": "内服：煎汤，9-15g，鲜品加倍；或入丸、散。外用：适量，鲜品捣敷。",
+              "origin": "菊科植物狗舌草Tephroseris kirilowii (Turcz.ex DC.)Holub的干燥地上部分",
+              "place": "生于塘边、路边湿地。分布东北以至华东、西南各地。",
+              "traits": "本品为段状。茎类圆柱形，具多纵棱，被有白色绒毛，切面中空。叶多切断，暗绿色，两面均有白色绒毛。头状花序，总苞一层，披针形；舌状花一层，黄色；管状花多数，多数散落。气香，味苦。",
+              "alias": "狗舌头草，白火丹草，铜交杯，糯米青，铜盘一枝香，九叶草，泽小车"
+            }
+          },
+          {
+            "name": "肿脓疡",
+            "type": "Disease"
+          },
+          {
+            "name": "疖肿",
+            "type": "Disease"
+          },
+          {
+            "name": "尿路感染",
+            "type": "Disease"
+          },
+          {
+            "name": "肾炎水肿",
+            "type": "Disease"
+          },
+          {
+            "name": "口腔炎",
+            "type": "Disease"
+          },
+          {
+            "name": "跌打损伤",
+            "type": "Disease"
+          },
+          {
+            "name": "湿疹",
+            "type": "Disease"
+          },
+          {
+            "name": "疥疮",
+            "type": "Disease"
+          },
+          {
+            "name": "阴道滴虫",
+            "type": "Disease"
+          },
+          {
+            "name": "清热解毒",
+            "type": "Effect"
+          },
+          {
+            "name": "利水消肿",
+            "type": "Effect"
+          },
+          {
+            "name": "杀虫",
+            "type": "Effect"
+          },
+          {
+            "name": "《浙江民间常用草药》",
+            "type": "Source"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利水消肿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "杀虫",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肿脓疡",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疖肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "尿路感染",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "肾炎水肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "口腔炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "跌打损伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "湿疹",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "疥疮",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "阴道滴虫",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "狗舌草",
+            "subject_type": "Herb",
+            "relation": "FROM_SOURCE",
+            "object": "《浙江民间常用草药》",
+            "object_type": "Source"
+          }
+        ]
+      }
+    },
+    {
+      "filename": "沼生蔊菜.txt",
+      "result": {
+        "entities": [
+          {
+            "name": "沼生蔊菜",
+            "type": "Herb",
+            "attributes": {
+              "property_flavor": "辛；苦；凉",
+              "meridian": "肝；膀胱经",
+              "effect": "清热解毒，利水消肿",
+              "indication": "风热感冒，咽喉肿痛，黄疸，淋病，水肿，关节炎，痈肿，汤火伤",
+              "dosage": "内服：煎汤，6-15g；外用：适量，捣敷"
+            }
+          },
+          {
+            "name": "风热感冒",
+            "type": "Disease"
+          },
+          {
+            "name": "咽喉肿痛",
+            "type": "Symptom"
+          },
+          {
+            "name": "黄疸",
+            "type": "Disease"
+          },
+          {
+            "name": "淋病",
+            "type": "Disease"
+          },
+          {
+            "name": "水肿",
+            "type": "Disease"
+          },
+          {
+            "name": "关节炎",
+            "type": "Disease"
+          },
+          {
+            "name": "痈肿",
+            "type": "Disease"
+          },
+          {
+            "name": "汤火伤",
+            "type": "Disease"
+          },
+          {
+            "name": "清热解毒",
+            "type": "Effect"
+          },
+          {
+            "name": "利水消肿",
+            "type": "Effect"
+          }
+        ],
+        "relations": [
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "清热解毒",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "HAS_EFFECT",
+            "object": "利水消肿",
+            "object_type": "Effect"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "风热感冒",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "黄疸",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "淋病",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "水肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "关节炎",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "痈肿",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "TREATS_DISEASE",
+            "object": "汤火伤",
+            "object_type": "Disease"
+          },
+          {
+            "subject": "沼生蔊菜",
+            "subject_type": "Herb",
+            "relation": "ALLEVIATES_SYMPTOM",
+            "object": "咽喉肿痛",
+            "object_type": "Symptom"
+          }
+        ]
+      }
+    }
+  ]
+}
