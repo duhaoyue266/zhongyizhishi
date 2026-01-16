@@ -17,6 +17,27 @@ class Neo4jClient:
             print("关闭链接")
             self.driver.close()
 
+    def validate_cypher(self, query, parameters=None):
+        """
+        验证 Cypher 查询语句的语法是否正确
+        :param query: Cypher 查询语句
+        :param parameters: 可选参数字典
+        :return: True 如果查询语法正确，False 否则
+        """
+        try:
+            with self.driver.session() as session:
+                # 使用 EXPLAIN 来验证查询语法，不会实际执行查询
+                # 如果查询已经包含 EXPLAIN 或 PROFILE，直接验证原查询
+                query_upper = query.strip().upper()
+                if query_upper.startswith('EXPLAIN') or query_upper.startswith('PROFILE'):
+                    session.run(query, parameters or {})
+                else:
+                    session.run(f"EXPLAIN {query}", parameters or {})
+                return True
+        except Exception as e:
+            print(f"Cypher 查询验证失败: {e}")
+            return False
+
     def run_cypher(self, query, parameters=None):
         """
         执行一条 Cypher 语句并返回结果

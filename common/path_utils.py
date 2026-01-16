@@ -8,4 +8,4 @@ def get_file_path(relative_path):
 
 
 if __name__ == '__main__':
-    print(get_file_path("aa/bbb/cc.jpg"))
+    print(get_file_path(".env"))

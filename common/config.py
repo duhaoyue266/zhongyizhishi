@@ -3,8 +3,8 @@ from dotenv import load_dotenv
 
 from common.path_utils import get_file_path
 
-# load_dotenv(get_file_path(".env"))
-load_dotenv("D:\pyprojects\知识图谱\.env")
+
+load_dotenv(get_file_path(".env"))
 
 
 class Config:
@@ -24,16 +24,20 @@ class Config:
         self.JIMENG_SK = os.getenv("JIMENG_SK")
 
         # # 读取图谱模式层的数据
-        self.TCM_METADATA = open(get_file_path("___003___insert_json_neo4j/tcm_metadata.json"), "r").read()
+        tcm_metadata_path = get_file_path("__003__insert_json_neo4j/tcm_metadata.json")
+        if os.path.exists(tcm_metadata_path):
+            self.TCM_METADATA = open(tcm_metadata_path, "r", encoding="utf-8").read()
+        else:
+            self.TCM_METADATA = "{}"  # 默认空JSON，避免文件不存在时报错
 
         # embedding模型
         self.EMBEDDING_MODEL_PATH = os.getenv("EMBEDDING_MODEL_PATH")
         #
         # # index的路径
-        self.ENTITY_INDEX_PATH = get_file_path("___003___insert_json_neo4j/nero4j_embedding_faiss.index")
-        self.ENTITY_ID2TEXT_PATH = get_file_path("___003___insert_json_neo4j/nero4j_embedding_faiss_id2text.pkl")
+        self.ENTITY_INDEX_PATH = get_file_path("__003__insert_json_neo4j/neo4j_embedding_faiss.index")
+        self.ENTITY_ID2TEXT_PATH = get_file_path("__003__insert_json_neo4j/neo4j_embedding_faiss_id2text.pkl")
 
 
 if __name__ == '__main__':
     conf = Config()
-    print(conf.MODEL_NAME)
+    print(conf.EMBEDDING_MODEL_PATH)
